@@ -1,0 +1,20 @@
+# .clang-tidy
+# Ubuntu LLVM version 20.1.8
+# Clang-Tidy Checks: https://clang.llvm.org/extra/clang-tidy/checks/list.html
+---
+Checks: >
+  -*,
+  clang-analyzer-*,
+  bugprone-*,
+  modernize-*,
+  performance-*,
+  portability-*,
+  misc-*,
+  readability-*,
+  cppcoreguidelines-*,
+  google-*,
+  -google-readability-braces-around-statements,
+  -readability-braces-around-statements,
+  -modernize-use-trailing-return-type,
+  -readability-identifier-length
+

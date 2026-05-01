@@ -1,6 +1,6 @@
 # how_to_use_git
 
-How to use git?
+**How to use git?**
 
 ---
 
